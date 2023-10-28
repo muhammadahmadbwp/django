@@ -845,3 +845,12 @@ not fall back to putting session IDs in URLs as a last resort, as PHP does.
 This is an intentional design decision. Not only does that behavior make URLs
 ugly, it makes your site vulnerable to session-ID theft via the "Referer"
 header.
+
+``make_toast()``
+================
+
+.. function:: make_toast()
+
+.. versionadded:: 2.2
+
+Returns ``'toast'``.
